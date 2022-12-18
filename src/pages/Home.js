@@ -1,8 +1,14 @@
-import React from 'react'
-
+import React, {useState} from 'react'
+import Exercise from '../components/Exercise'
+import MainBanner from '../components/MainBanner'
+import SearchExercise from '../components/SearchExercise'
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <MainBanner />
+      <SearchExercise />
+      <Exercise />
+    </div>
   )
 }
 
