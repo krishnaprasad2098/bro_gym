@@ -11,7 +11,7 @@ const App = () => {
   return (
     <BrowserRouter>
 
-    <div className="m-auto">
+    <div className="m-auto bg-slate-50">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

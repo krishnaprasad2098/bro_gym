@@ -16,16 +16,16 @@ const Navbar = () => {
     <header className=" lg:flex items-center justify-start p-4">
       <div className="flex items-center">
       <img src={hand} alt="" className="h-20 w-20"></img>
-      <h1 className="">DO HARD</h1>
+      <h1 className="pl-2">DO HARD</h1>
       </div>
 
 
       <div className="text-center lg:ml-8">
         <ul className="hidden lg:flex gap-2">
-          <li className="pt-2 lg:px-6 mr-6 font-bold underline  hover:text-orange-400">Home</li>
-          <li className="pt-2 lg:px-6 mr-6 font-bold underline hover:text-orange-400">Services</li>
-          <li className="pt-2 lg:px-6 mr-6 font-bold underline hover:text-orange-400">About</li>
-          <li className="pt-2 lg:px-6 mr-6 font-bold underline hover:text-orange-400">Contact</li>
+          <li className="pt-2 lg:px-6 mr-6 font-bold hover:underline hover:text-orange-400">Home</li>
+          <li className="pt-2 lg:px-6 mr-6 font-bold hover:underline hover:text-orange-400">Services</li>
+          <li className="pt-2 lg:px-6 mr-6 font-bold hover:underline hover:text-orange-400">About</li>
+          <li className="pt-2 lg:px-6 mr-6 font-bold hover:underline hover:text-orange-400">Contact</li>
         </ul>
       </div>
         <button className="ml-7 mt-4 lg:hidden" onClick={handleNav}>
