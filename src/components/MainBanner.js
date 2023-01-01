@@ -4,9 +4,9 @@ const MainBanner = () => {
   return (
     <div className="">
       <h1 className="pb-2  text-3xl text-red-600 flex justify-center font-semibold">Fitness Club</h1>
-    <div className="lg:flex justify-around mr-2 ml-2  items-center">
+    <div className="lg:flex justify-around mr-2 ml-2  items-center border border-1-black">
       <div className="font-bold p-2">
-        <h1 className=" text-left  lg:pl-1 text-5xl  text-red-900">"BLOOD,</h1>
+        <h1 className=" text-left  lg: text-5xl  text-red-900">"BLOOD,</h1>
         <h1 className=" text-left pl-6 lg:pl-6 text-5xl pb-4 text-red-900">SWEAT,</h1>
 
         <h1 className="pl-6 text-4xl text-red-500">RESPECT"</h1>

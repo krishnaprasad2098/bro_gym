@@ -23,8 +23,8 @@ const Navbar = () => {
       <div className="text-center lg:ml-8">
         <ul className="hidden lg:flex gap-2">
           <li className="pt-2 lg:px-6 mr-6 font-bold hover:underline hover:text-orange-400">Home</li>
-          <li className="pt-2 lg:px-6 mr-6 font-bold hover:underline hover:text-orange-400">Services</li>
-          <li className="pt-2 lg:px-6 mr-6 font-bold hover:underline hover:text-orange-400">About</li>
+          <li className="pt-2 lg:px-6 mr-6 font-bold hover:underline hover:text-orange-400">Exercises</li>
+          <li className="pt-2 lg:px-6 mr-6 font-bold hover:underline hover:text-orange-400">Diet</li>
           <li className="pt-2 lg:px-6 mr-6 font-bold hover:underline hover:text-orange-400">Contact</li>
         </ul>
       </div>
@@ -34,8 +34,8 @@ const Navbar = () => {
         </button>
         <ul className={!nav ? 'text-center p-4 ease-in-out duration-500 lg:hidden ': 'fixed left-[-100%]'}>
           <li className="pt-4 lg:px-6 mr-6 ">Home</li>
-          <li className="pt-4 lg:px-6 mr-6 ">Services</li>
-          <li className="pt-4 lg:px-6 mr-6 ">About</li>
+          <li className="pt-4 lg:px-6 mr-6 ">Exercises</li>
+          <li className="pt-4 lg:px-6 mr-6 ">Diet</li>
           <li className="pt-4 lg:px-6 mr-6 ">Contact</li>
         </ul>
     </header>
