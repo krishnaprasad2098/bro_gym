@@ -1,19 +1,21 @@
-const details=[
+[
     {
         "id":"1",
         "imgPath":"",
-        "name":""
+        "name":"Squats",
+        "detaillink":""
     },
     {
         "id":"2",
         "imgPath":"",
-        "name":""
+        "name":"PushUps",
+        "detaillink":""
     },
     {
         "id":"3",
         "imgPath":"",
-        "name":""
+        "name":"yoga",
+        "detaillink":""
     }
 ]
 
-export default details;
