@@ -16,6 +16,18 @@
         "imgPath":"",
         "name":"yoga",
         "detaillink":""
+    },
+    {
+        "id":"4",
+        "imgPath":"",
+        "name":"pullups",
+        "detaillink":""
+    },
+    {
+        "id":"5",
+        "imgPath":"",
+        "name":"box",
+        "detaillink":""
     }
 ]
 
