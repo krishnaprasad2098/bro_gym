@@ -9,7 +9,7 @@ const SearchBar = () => {
     <div>
 
     <div className="flex justify-center">
-      <input type="text" placeholder="Enter Exercise" className="w-6/12 placeholder-gray-700 outline-none" 
+      <input type="text" placeholder="Enter Exercise" className="w-6/12 placeholder-gray-700 outline-none bg-slate-300 rounded-sm" 
       onChange={event => {setSearchExercise(event.target.value)}} ></input> 
       {/* passing data props */}
       <button type="submit" className=" w-20 outline-none p-1 rounded-r bg-slate-700 text-white  lg:bg-red-500">Search</button>
