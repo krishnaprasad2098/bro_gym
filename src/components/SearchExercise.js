@@ -1,7 +1,11 @@
 import React, { useEffect, useState } from "react";
 import SearchBar from "./SearchBar";
 import exercisedetail from '../data/details.json'
-const SearchExercise = () => {
+import scrolldetails from '../data/scrolldetails'
+import HorizontalScrollBar from '../components/HorizontalScrollBar.js'
+const SearchExercise = ({setExercises,bodyPart,setbodyParts}) => {
+  // const[exercises,setExercises] = useState([])
+  
   
   return (
     <div>
@@ -16,6 +20,7 @@ const SearchExercise = () => {
       </div> */}
 
       <SearchBar data={exercisedetail} />
+      <HorizontalScrollBar data={scrolldetails} bodyPart={bodyPart} setbodyParts={setbodyParts} />
     </div>
   ); 
 };

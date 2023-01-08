@@ -28,8 +28,8 @@ const Navbar = () => {
           <li className="pt-2 lg:px-6 mr-6 font-bold hover:underline hover:text-orange-400">Contact</li>
         </ul>
       </div>
-        <button className="ml-7 mt-4 lg:hidden" onClick={handleNav}>
-          {!nav ? <FaTimes /> : <FaBars />}
+        <button className="ml-7 mt-4  lg:hidden" onClick={handleNav}>
+          {nav ? <FaBars /> : <FaTimes />}
           
         </button>
         <ul className={!nav ? 'text-center p-4 ease-in-out duration-500 lg:hidden ': 'fixed left-[-100%]'}>
