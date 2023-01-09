@@ -5,13 +5,16 @@ const HorizontalScrollBar = () => {
   return (
     <div>
 
-        {/* {
-            hscrolldetails.map((value)=>
+         {/* {
+            hscrolldetails.map((value)=>{
+              return(
+
                 
-                    <div key={value.id}>
-                        <img src={value.image} alt="" className="w-full" />
+                <div key={value.id}>
+                        <img src={value.image} alt="" className="w-full" data={hscrolldetails}  />
                         <p>{value.title}</p>
                     </div>
+              )}
                 
             )
         } */}
