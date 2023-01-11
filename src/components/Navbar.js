@@ -18,7 +18,7 @@ const Navbar = () => {
         <img src={hand} alt="" className="h-20 w-20"></img>
         <h1 className="pl-2">DO HARD</h1>
       </div>
-      <button className=" absolute top-10 right-12 mt-2 lg:hidden" onClick={handleNav}>
+      <button className=" absolute top-10 right-4 mt-2 lg:hidden" onClick={handleNav}>
           {nav ? <FaBars /> : <FaTimes />}  
         </button>
 
