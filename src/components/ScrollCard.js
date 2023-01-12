@@ -1,12 +1,15 @@
-import React, { useRef } from "react";
+import React, { useState } from "react";
 import scrolldetails from "../data/scrolldetails.js";
 import { FaAngleDoubleLeft, FaAngleDoubleRight } from "react-icons/fa";
 import Carousel from 'react-elastic-carousel'
 
 
 
-const ScrollCard = () => {
-  
+const ScrollCard = ({props}) => {
+  const[Clickable,setClickable] = useState(false);
+  const handleClick = () =>{
+    setClickable(!Clickable)
+  }
   return (
 
     <div>
