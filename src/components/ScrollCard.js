@@ -1,23 +1,47 @@
 import React, { useState } from "react";
 import scrolldetails from "../data/scrolldetails.js";
 import { FaAngleDoubleLeft, FaAngleDoubleRight } from "react-icons/fa";
-import Carousel from 'react-elastic-carousel'
 
 
 
-const ScrollCard = ({props}) => {
-  const[Clickable,setClickable] = useState(false);
-  const handleClick = () =>{
-    setClickable(!Clickable)
+
+const ScrollCard = ({prop}) => {
+  const[Activeslide,setActiveslide] = useState(1);
+
+  function prevSlideHandler(+) {
+    if(scrolldetails.id === 1){
+      setActiveslide(scrolldetails.length)
+    }
+    else if(scrolldetails.id > 1){
+      setActiveslide(Activeslide-1)
+    }
+    else{
+      setActiveslide(scrolldetails.length - 1)
+    }
+
+}
+
+const nextSlideHandler = () => {
+  if(scrolldetails.id === scrolldetails.length){
+    setActiveslide(1)
   }
+  else if(scrolldetails.id < scrolldetails.length){
+    setActiveslide(Activeslide + 1)
+  }
+  else{
+    setActiveslide(scrolldetails.length - 1)
+  }
+  
+}
+
   return (
 
     <div>
-      <div className="flex items-center justify-around mt-4  mb-4">
-        <button className="">
+      <div className={Activeslide===scrolldetails.id ? 'lg:flex items-center justify-around mt-4  mb-4' : 'lg:flex items-center justify-around mt-4  mb-4 ' }>   {/*flex items-center justify-around mt-4  mb-4*/}
+        <button className="" onClick={() => prevSlideHandler(scrolldetails.id)} >
           <FaAngleDoubleLeft />
         </button>
-        <button className="">
+        <button className="" onClick={() => nextSlideHandler(scrolldetails.id)}>
           <FaAngleDoubleRight />
         </button>
       </div>
