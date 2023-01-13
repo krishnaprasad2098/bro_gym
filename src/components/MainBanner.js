@@ -13,7 +13,7 @@ const MainBanner = () => {
         <p className="pt-4 pl-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit mollitia quaerat laboriosam fugiat reiciendis</p>
         <p className='pl-2'>sint eaque enim repellendus perferendis ex architecto culpa laudantium maxime illo. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, consequuntur quisquam? Qui eos reiciendis perspiciatis!</p>
       </div>
-        <img src={MainBannerPic} alt="banner" className="lg:max-w-2xl max-h-80 p-2 rounded-2xl mr-6"/>
+        <img src={MainBannerPic} alt="banner" className="lg:max-w-2xl  p-2 rounded-2xl mr-6"/>
     </div>
     <div className="flex justify-center">
       <button className="  bg-blue-500 p-2 rounded mt-4 hover:bg-slate-800 text-white " href="#exercises">Checkout Exercise</button>
