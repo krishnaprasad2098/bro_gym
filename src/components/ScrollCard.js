@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef,useState } from "react";
 import scrolldetails from "../data/scrolldetails.js";
 import { FaAngleDoubleLeft, FaAngleDoubleRight } from "react-icons/fa";
 import logo2 from '../assets/images/image-2.jpg'
@@ -8,10 +8,16 @@ import logo4 from '../assets/images/image-4.png'
 import logo5 from '../assets/images/image-5.png'
 import logo6 from '../assets/images/image-6.png'
 import Exercisecard from "./Exercisecard.js";
-
+import EquipmentCard from "./EquipmentCard.js";
+import Infrastructurecard from "./Infrastructurecard.js";
+import YogaCard from "./YogaCard.js";
 
 
 const ScrollCard = () => {
+
+  const[active, setActive]=useState("FirstComponent")
+
+
   const sliderRef=useRef(0)
   const scrollLeft = () => {
     sliderRef.current && (sliderRef.current.scrollLeft -= 400);
@@ -50,46 +56,53 @@ const ScrollCard = () => {
 
             <div className="text-center">
               <img src={logo1} alt="" className="max-w-none w-32 lg:w-36"></img>
-              <h1 classsName="">lorem</h1>
+              <button onClick={()=>setActive("FirstComponent")}><h1 classsName="">lorem</h1></button>
             </div>
             <div className="text-center">
               <img src={logo2} alt="" className="max-w-none w-32 lg:w-36"></img>
-              <h1 classsName="">lorem</h1>
+              <button onClick={()=>setActive("SecondComponent")}><h1 classsName="">lorem</h1></button>
             </div>
             <div className="text-center">
               <img src={logo3} alt="" className="max-w-none w-32 lg:w-36"></img>
-              <h1 classsName="">lorem</h1>
+              <button onClick={()=>setActive("ThirdComponent")}><h1 classsName="">lorem</h1></button>
             </div>
             <div className="text-center">
               <img src={logo4} alt="" className="max-w-none w-32 lg:w-36"></img>
-              <h1 classsName="">lorem</h1>
+              <button onClick={()=>setActive("FourthComponent")}><h1 classsName="">lorem</h1></button>
             </div>
             <div className="text-center">
               <img src={logo5} alt="" className="max-w-none w-32 lg:w-36"></img>
-              <h1 classsName="">lorem</h1>
+              <button><h1 classsName="">lorem</h1></button>
             </div>
             <div className="text-center">
               <img src={logo6} alt="" className="max-w-none w-32 lg:w-36"></img>
-              <h1 classsName="">lorem</h1>
+              <button><h1 classsName="">lorem</h1></button>
             </div>
             <div className="text-center">
               <img src={logo1} alt="" className="max-w-none w-32 lg:w-36"></img>
-              <h1 classsName="">lorem</h1>
+              <button><h1 classsName="">lorem</h1></button>
             </div>
             <div className="text-center">
               <img src={logo2} alt="" className="max-w-none w-32 lg:w-36"></img>
-              <h1 classsName="">lorem</h1>
+              <button><h1 classsName="">lorem</h1></button>
             </div>
             <div className="text-center">
               <img src={logo3} alt="" className="max-w-none w-32 lg:w-36"></img>
-              <h1 classsName="">lorem</h1>
+              <button><h1 classsName="">lorem</h1></button>
             </div>
             <div className="text-center">
               <img src={logo4} alt="" className="max-w-none w-32 lg:w-36"></img>
-              <h1 classsName="">lorem</h1>
+              <button><h1 classsName="">lorem</h1></button>
             </div>
       </div>
-      <Exercisecard />
+      <div>
+        {active === "FirstComponent" &&  <Exercisecard />}
+        {active === "SecondComponent" && <EquipmentCard />}
+        {active === "ThirdComponent" && <Infrastructurecard />}
+        {active === "FourthComponent" && <YogaCard />}
+      
+      
+      </div>
     </div>
   );
 };

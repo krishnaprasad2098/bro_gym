@@ -1,10 +1,7 @@
 import React from 'react'
-import exerciseimg from '../assets/images/image-1.png'
-const Exercisecard = () => {
+import exerciseimg from '../assets/images/image-3.png'
+const Infrastructure = () => {
   return (
-
-    // flex justify-center items-center
-
     <div className="md:grid grid-cols-3 gap-3" > 
         <div className="w-auto lg: border-green-700 w-80 border-4">
             <img src={exerciseimg} alt="" className="h-32  ml-auto mr-auto"></img>
@@ -58,4 +55,4 @@ const Exercisecard = () => {
   )
 }
 
-export default Exercisecard
+export default Infrastructure
