@@ -5,7 +5,7 @@ const Exercisecard = () => {
 
     // flex justify-center items-center
 
-    <div className="md:grid grid-cols-3 gap-3" > 
+    <div className="grid md:grid grid-cols-2 gap-3 m-2" > 
         <div className="w-auto lg: border-green-700 w-auto border-4">
             <img src={exerciseimg} alt="" className="h-32  ml-auto mr-auto"></img>
             <h1 className="text-center">Excercise</h1>
