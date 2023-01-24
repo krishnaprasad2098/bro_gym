@@ -67,7 +67,7 @@ const ScrollCard = () => {
               <button onClick={()=>setActive("ThirdComponent")}><h1 classsName="">lorem</h1></button>
             </div>
             <div className="text-center">
-              <img src={logo4} alt="" className="max-w-none w-32 lg:w-36"></img>
+              <img src={logo4} alt="" className="max-w-none w-32 lg:w-36 aspect-[2/2]"></img>
               <button onClick={()=>setActive("FourthComponent")}><h1 classsName="">lorem</h1></button>
             </div>
             <div className="text-center">
@@ -91,7 +91,7 @@ const ScrollCard = () => {
               <button><h1 classsName="">lorem</h1></button>
             </div>
             <div className="text-center">
-              <img src={logo4} alt="" className="max-w-none w-32 lg:w-36"></img>
+              <img src={logo4} alt="" className="max-w-none w-32 lg:w- aspect-[2/2]"></img>
               <button><h1 classsName="">lorem</h1></button>
             </div>
       </div>
