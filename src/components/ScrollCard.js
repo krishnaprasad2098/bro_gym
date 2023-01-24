@@ -55,15 +55,15 @@ const ScrollCard = () => {
 
 
             <div className="text-center">
-              <img src={logo1} alt="" className="max-w-none w-32 lg:w-36"></img>
+              <img src={logo1} alt="" className="max-w-none w-32 lg:w-36 "></img>
               <button onClick={()=>setActive("FirstComponent")}><h1 classsName="">lorem</h1></button>
             </div>
             <div className="text-center">
-              <img src={logo2} alt="" className="max-w-none w-32 lg:w-36"></img>
+              <img src={logo2} alt="" className="max-w-none w-32 lg:w-36 "></img>
               <button onClick={()=>setActive("SecondComponent")}><h1 classsName="">lorem</h1></button>
             </div>
             <div className="text-center">
-              <img src={logo3} alt="" className="max-w-none w-32 lg:w-36"></img>
+              <img src={logo3} alt="" className="max-w-none w-32 lg:w-36 "></img>
               <button onClick={()=>setActive("ThirdComponent")}><h1 classsName="">lorem</h1></button>
             </div>
             <div className="text-center">

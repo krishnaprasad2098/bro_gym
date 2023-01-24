@@ -15,7 +15,7 @@ const Navbar = () => {
 
     <header className=" lg:flex items-center justify-between p-4">
       <div className="flex items-center">
-        <img src={hand} alt="" className="h-20 w-20"></img>
+        <img src={hand} alt="" className="h-20 w-20 mix-blend-multiply "></img>
         <h1 className="pl-2">DO HARD</h1>
       </div>
       <button className=" absolute top-10 right-4 mt-2 lg:hidden" onClick={handleNav}>
