@@ -13,44 +13,52 @@ const pricedetails = [
         "id":1,
         "imagelink":logo1,
         "name":"trainer",
-        "price":'220',
+        "price":'Rs.220',
         "description":'lorem ipsum dolar init polar ghikjd drdf'
     },
     {
         "id":2,
         "imagelink":logo2,
         "name":"trainer",
-        "price":'200',
+        "price":'Rs.200',
         "description":'lorem ipsum dolar init polar ghikjd drdf'
     },
     {
         "id":3,
         "imagelink":logo3,
         "name":"trainer",
-        "price":'300',
+        "price":'Rs.300',
         "description":'lorem ipsum dolar init polar ghikjd drdf'
     },
     {
         "id":4,
         "imagelink":logo4,
         "name":"trainer",
-        "price":'300',
+        "price":'Rs.300',
         "description":'lorem ipsum dolar init polar ghikjd drdf'
     },
     {
         "id":5,
         "imagelink":logo5,
         "name":"trainer",
-        "price":'300',
+        "price":'Rs.300',
         "description":'lorem ipsum dolar init polar ghikjd drdf'
     },
     {
         "id":6,
         "imagelink":logo6,
         "name":"trainer",
-        "price":'300',
+        "price":'Rs.300',
         "description":'lorem ipsum dolar init polar ghikjd drdf'
+    },
+    {
+        "id":7,
+        "imagelink":logo6,
+        "name":"trainer",
+        "price":'Rs.300',
+        "description":'lorem ipsum dolar init polar ghikjd drdf '
     }
+
 ]
 
 export default pricedetails
