@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/bro_gym/static/css/main.7246980a.css",
+    "main.js": "/bro_gym/static/js/main.ff36c477.js",
+    "static/js/787.55a645a2.chunk.js": "/bro_gym/static/js/787.55a645a2.chunk.js",
+    "static/media/MainBannerPic.jpg": "/bro_gym/static/media/MainBannerPic.fce5dc20858b97df7853.jpg",
+    "static/media/image-3.png": "/bro_gym/static/media/image-3.6f02477df9adb0aa418c.png",
+    "static/media/aboutus.jpg": "/bro_gym/static/media/aboutus.88eb602824add62476da.jpg",
+    "static/media/hand.jpg": "/bro_gym/static/media/hand.025ad85e0dc16b79a3ce.jpg",
+    "static/media/image-5.png": "/bro_gym/static/media/image-5.eeaa43b3e7da5a269efc.png",
+    "static/media/image-4.png": "/bro_gym/static/media/image-4.9fa2ad1f50a322798536.png",
+    "static/media/image-2.jpg": "/bro_gym/static/media/image-2.a5b1a9872c601319895a.jpg",
+    "static/media/image-1.png": "/bro_gym/static/media/image-1.3a3577778916f2f9b831.png",
+    "index.html": "/bro_gym/index.html",
+    "main.7246980a.css.map": "/bro_gym/static/css/main.7246980a.css.map",
+    "main.ff36c477.js.map": "/bro_gym/static/js/main.ff36c477.js.map",
+    "787.55a645a2.chunk.js.map": "/bro_gym/static/js/787.55a645a2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7246980a.css",
+    "static/js/main.ff36c477.js"
+  ]
+}
