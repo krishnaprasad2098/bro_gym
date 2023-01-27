@@ -9,7 +9,7 @@ import {BrowserRouter} from 'react-router-dom'
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter  basename='/bro_gym'>
 
     <div className="m-auto bg-slate-50">
       <Navbar />
