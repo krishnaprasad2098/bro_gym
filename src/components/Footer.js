@@ -14,9 +14,9 @@ const Footer = () => {
         <FcCallback className="text-2xl" />
         <h1 className="text-white font-normal">+91-1234567890</h1>
       </div>
-      <div className="flex items-center justify-start gap-3 ml-4">
+      <div className="flex items-center justify-start gap-3 ml-4 flex-wrap ">
         <GrMail className="text-2xl text-teal-50" />
-        <h1 className="text-white font-normal">examplemail@gmail.com</h1>
+        <h1 className="text-white font-normal break-all">examplemail@gmail.com</h1>
       </div>
     </div>
      <div>

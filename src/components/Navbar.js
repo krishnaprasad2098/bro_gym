@@ -1,6 +1,7 @@
 import React, {useState} from 'react'
 import hand from '../assets/icons/hand.jpg'
 import {FaBars,FaTimes} from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 const Navbar = () => {
 
 
@@ -26,6 +27,8 @@ const Navbar = () => {
         <ul className="hidden lg:flex gap-2">
           <li className="pt-2 lg:px-6 mr-6 font-bold hover:underline">Home</li>
           <li className="pt-2 lg:px-6 mr-6 font-bold hover:underline">Exercises</li>
+          {/* <Link to="/exercise">Exercise Link</Link>
+          <Link to="/">Home Link</Link> */}
           <li className="pt-2 lg:px-6 mr-6 font-bold hover:underline">Packages</li>
           <li className="pt-2 lg:px-6 mr-6 font-bold hover:underline">Contact</li>
         </ul>

@@ -15,7 +15,7 @@ const App = () => {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/exercise/:id" element={<ExerciseDetail />} /> {/*rendering dynamically inside a component */}
+        <Route path="/exercise" element={<ExerciseDetail />} /> {/*rendering dynamically inside a component */}
       </Routes>
       <Footer />
     </div>
