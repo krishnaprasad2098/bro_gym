@@ -1,5 +1,4 @@
 import React from "react";
-import aboutus from "../assets/images/aboutus.jpg";
 import PriceCard from "./PriceCard.js";
 const Aboutus = () => {
   return (
