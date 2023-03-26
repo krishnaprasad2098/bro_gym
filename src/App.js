@@ -1,13 +1,17 @@
 import React from "react";
-import Home from "./pages/Home";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Catalogue from "./components/Catalogue.js";
+import MainBanner from "./components/MainBanner";
+import SearchExercise from "./components/SearchExercise";
 
 const App = () => {
   return (
     <div className="m-auto bg-slate-50">
       <Navbar />
-      <Home />
+      <MainBanner />
+      <SearchExercise />
+      <Catalogue />
       <Footer />
     </div>
   );
