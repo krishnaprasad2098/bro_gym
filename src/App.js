@@ -12,8 +12,6 @@ const App = () => {
       <div className="m-auto bg-slate-50">
         <Navbar />
         <Home />
-        {/* <ExerciseDetail /> */}
-
         <Footer />
       </div>
     </BrowserRouter>
