@@ -29,8 +29,6 @@ const Navbar = () => {
           <li className="pt-2 lg:px-6 mr-6 font-bold  hover:cursor-pointer">
             <a href="#SearchExercise">Exercises</a>
           </li>
-          {/* <Link to="/exercise">Exercise Link</Link>
-          <Link to="/">Home Link</Link> */}
           <li className="pt-2 lg:px-6 mr-6 font-bold hover:cursor-pointer">
             <a href="#Catalogue">Packages</a>
           </li>
@@ -51,13 +49,13 @@ const Navbar = () => {
           Home
         </li>
         <li className="pt-4 lg:px-6 mr-6 cursor-pointer " onClick={handleNav}>
-          Exercises
+          <a href="#SearchExercise">Exercises</a>
         </li>
         <li className="pt-4 lg:px-6 mr-6 cursor-pointer " onClick={handleNav}>
-          Packages
+          <a href="#Catalogue">Packages</a>
         </li>
         <li className="pt-4 lg:px-6 mr-6 cursor-pointer " onClick={handleNav}>
-          Contact
+          <a href="#Contact">Contact</a>
         </li>
       </ul>
     </header>
