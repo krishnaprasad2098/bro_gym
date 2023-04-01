@@ -7,12 +7,22 @@ import SearchExercise from "./components/SearchExercise";
 
 const App = () => {
   return (
-    <div className="m-auto bg-slate-50">
-      <Navbar />
-      <MainBanner />
-      <SearchExercise />
-      <Catalogue />
-      <Footer />
+    <div className="m-auto bg-slate-50 ">
+      <main id="home">
+        <Navbar />
+        <section id="MainBanner">
+          <MainBanner />
+        </section>
+        <section id="SearchExercise">
+          <SearchExercise />
+        </section>
+        <section id="Catalogue">
+          <Catalogue />
+        </section>
+        <section id="Contact">
+          <Footer />
+        </section>
+      </main>
     </div>
   );
 };

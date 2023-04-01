@@ -26,16 +26,16 @@ const Navbar = () => {
           <li className="pt-2 lg:px-6 mr-6 font-bold hover:cursor-pointer">
             Home
           </li>
-          <li className="pt-2 lg:px-6 mr-6 font-bold hover:cursor-pointer">
-            Exercises
+          <li className="pt-2 lg:px-6 mr-6 font-bold  hover:cursor-pointer">
+            <a href="#SearchExercise">Exercises</a>
           </li>
           {/* <Link to="/exercise">Exercise Link</Link>
           <Link to="/">Home Link</Link> */}
           <li className="pt-2 lg:px-6 mr-6 font-bold hover:cursor-pointer">
-            Packages
+            <a href="#Catalogue">Packages</a>
           </li>
           <li className="pt-2 lg:px-6 mr-6 font-bold hover:cursor-pointer">
-            Contact
+            <a href="#Contact">Contact</a>
           </li>
         </ul>
       </div>
@@ -47,16 +47,16 @@ const Navbar = () => {
             : "fixed left-[-100%]  "
         }
       >
-        <li className="pt-4 lg:px-6 mr-6 " onClick={handleNav}>
+        <li className="pt-4 lg:px-6 mr-6 cursor-pointer  " onClick={handleNav}>
           Home
         </li>
-        <li className="pt-4 lg:px-6 mr-6 " onClick={handleNav}>
+        <li className="pt-4 lg:px-6 mr-6 cursor-pointer " onClick={handleNav}>
           Exercises
         </li>
-        <li className="pt-4 lg:px-6 mr-6 " onClick={handleNav}>
+        <li className="pt-4 lg:px-6 mr-6 cursor-pointer " onClick={handleNav}>
           Packages
         </li>
-        <li className="pt-4 lg:px-6 mr-6 " onClick={handleNav}>
+        <li className="pt-4 lg:px-6 mr-6 cursor-pointer " onClick={handleNav}>
           Contact
         </li>
       </ul>
