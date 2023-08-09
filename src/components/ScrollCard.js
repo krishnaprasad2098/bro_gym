@@ -40,21 +40,33 @@ const ScrollCard = () => {
         ref={sliderRef}
       >
         <div className="text-center">
-          <img src={logo1} alt="" className="max-w-none w-32 lg:w-36 "></img>
+          <img
+            src={logo1}
+            alt=""
+            className="max-w-none w-32 lg:w-36 aspect-[2/2] "
+          ></img>
           <button onClick={() => setActive("FirstComponent")}>
-            <h1 classsName="">lorem</h1>
+            <h1 classsName="">Exercise</h1>
           </button>
         </div>
         <div className="text-center">
-          <img src={logo2} alt="" className="max-w-none w-32 lg:w-36 "></img>
+          <img
+            src={logo2}
+            alt=""
+            className="max-w-none w-32 lg:w-36 aspect-[2/2] "
+          ></img>
           <button onClick={() => setActive("SecondComponent")}>
-            <h1 classsName="">lorem</h1>
+            <h1 classsName="">Building</h1>
           </button>
         </div>
         <div className="text-center">
-          <img src={logo3} alt="" className="max-w-none w-32 lg:w-36 "></img>
+          <img
+            src={logo3}
+            alt=""
+            className="max-w-none w-32 lg:w-36 aspect-[2/2] "
+          ></img>
           <button onClick={() => setActive("ThirdComponent")}>
-            <h1 classsName="">lorem</h1>
+            <h1 classsName="">Staff's</h1>
           </button>
         </div>
         <div className="text-center">
@@ -64,35 +76,55 @@ const ScrollCard = () => {
             className="max-w-none w-32 lg:w-36 aspect-[2/2]"
           ></img>
           <button onClick={() => setActive("FourthComponent")}>
-            <h1 classsName="">lorem</h1>
+            <h1 classsName="">Yoga Class</h1>
           </button>
         </div>
         <div className="text-center">
-          <img src={logo5} alt="" className="max-w-none w-32 lg:w-36"></img>
+          <img
+            src={logo5}
+            alt=""
+            className="max-w-none w-32 lg:w-36 aspect-[2/2]"
+          ></img>
           <button>
-            <h1 classsName="">lorem</h1>
+            <h1 classsName="">Diet</h1>
           </button>
         </div>
         <div className="text-center">
-          <img src={logo6} alt="" className="max-w-none w-32 lg:w-36"></img>
+          <img
+            src={logo6}
+            alt=""
+            className="max-w-none w-32 lg:w-36 aspect-[2/2]"
+          ></img>
           <button>
-            <h1 classsName="">lorem</h1>
+            <h1 classsName="">Trainer</h1>
           </button>
         </div>
         <div className="text-center">
-          <img src={logo1} alt="" className="max-w-none w-32 lg:w-36"></img>
+          <img
+            src={logo1}
+            alt=""
+            className="max-w-none w-32 lg:w-36 aspect-[2/2]"
+          ></img>
           <button>
-            <h1 classsName="">lorem</h1>
+            <h1 classsName="">Equipment's</h1>
           </button>
         </div>
         <div className="text-center">
-          <img src={logo2} alt="" className="max-w-none w-32 lg:w-36"></img>
+          <img
+            src={logo2}
+            alt=""
+            className="max-w-none w-32 lg:w-36 aspect-[2/2]"
+          ></img>
           <button>
-            <h1 classsName="">lorem</h1>
+            <h1 classsName="">Culture</h1>
           </button>
         </div>
         <div className="text-center">
-          <img src={logo3} alt="" className="max-w-none w-32 lg:w-36"></img>
+          <img
+            src={logo3}
+            alt=""
+            className="max-w-none w-32 lg:w-36 aspect-[2/2]"
+          ></img>
           <button>
             <h1 classsName="">lorem</h1>
           </button>
